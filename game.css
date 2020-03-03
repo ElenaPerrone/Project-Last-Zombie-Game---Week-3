@@ -1,0 +1,36 @@
+.title {
+  border: solid 1px black;
+  width: fit-content;
+}
+
+#gameplay {
+  height: 500px;
+  width: 750px;
+  border: solid 1px black;
+  position: relative;
+}
+
+.instructions {
+  border: solid 1px black;
+  width: 20vw;
+  height: 15vh;
+}
+.container {
+  border: solid 1px black;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#zombie {
+  height: 70px;
+  width: 80px;
+  position: absolute;
+  padding-top: 430px;
+}
+
+#cbrain {
+  height: 5vh;
+  width: 3vw;
+  position: absolute;
+}
+
