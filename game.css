@@ -1,0 +1,71 @@
+/* body{
+  background-image: url(./);
+} */
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: 0;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;   
+} 
+#startBtn {
+  width: 180px;
+  height: 50px;
+  background-color: olive;
+  border-radius: 15px;
+  color: black;
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 800;
+  z-index: 10;
+}
+#resetBtn {
+  width: 180px;
+  height: 50px;
+  background-color: darkred;
+  border-radius: 15px;
+  color: black;
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin-right: -10%;
+  z-index: 10;
+}
+#scoreboard {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  color: darkred ;
+  background: "smokewhite";
+  font-family: 'Acme', sans-serif;
+  width: 250px;
+  height: 50px;
+  text-align: "center"; 
+  position: "absolute";
+  z-index: 30; 
+  top: 50px; 
+  left: 50px;
+}
